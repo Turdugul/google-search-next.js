@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <>
+    <div className="container m-auto">
       <HomeHeader />
       <div className='flex flex-col items-center mt-24'>
         <Image
@@ -17,6 +17,6 @@ export default function Home() {
         />
         <HomeSearch />
       </div>
-    </>
+    </div>
   );
 }
